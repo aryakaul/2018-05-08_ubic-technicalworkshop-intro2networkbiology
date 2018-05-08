@@ -30,3 +30,11 @@ help(NDEx)
 6. Re-label the node names by using the relabel_nodes function. Hint: the node names are stored in your node attributes. You can access them using get_node_attributes function.
 7. Instead of studying the entire network directly, we will use a seed and create a subnetwork from this seed node by collecting all of its first degree neighbors. We will continue to expand this subnetwork by collecting the neighbors of neighbors (and so on) until we reach a minimum of 1000 nodes. Write the necessary function that takes a graph, node, and the minimum number of nodes as input and returns the expanded subgraph. Use BRCA2 as the seed node. *Tip: you can get all direct neighbors using the neighbors() method.*
 8. Display this network by using the draw function. Hint: Make sure matplotlib is imported and you are using the matplotlib inline Jupyter magic.
+
+## 3. Network Visualization
+
+1. Using the subnetwork from the last section, compute the degree of each node. *Tip: Cook up networkx's documentation!* Plot a histogram of the degrees using matplotlib.
+2. Compute the eigenvector centrality of each node, plot a similar histogram.
+3. Why do you think the difference is? Look up measures of centrality and hypothesize the biological significance of the difference.
+
+
