@@ -16,3 +16,5 @@ then click on the Search icon.
 2. Apply layouts and styles to visualize this network. Distinguish between proteins, small molecules, and RNAs. Also distinguish between directed and undirected edges. Use [Cytoscape's tutorial](https://cytoscape.github.io/cytoscape-tutorials/protocols/modules/mapping-data/#/) to learn how to do this. *Tip: Install yFiles layouts in the `Layout` tab*
 
 3. Create an [NDEx](http://www.home.ndexbio.org/create-an-ndex-account/) account, and export your network to it. Go to `File->Export->Network to NDEx`. Click on the anonymous account in the upper right, then the Add Account button. Enter your NDEx username and password leaving the NDEx server field blank. 
+
+## 2. Introduction to networkx and NDExBio
