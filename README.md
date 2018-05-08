@@ -18,3 +18,16 @@ then click on the Search icon.
 3. Create an [NDEx](http://www.home.ndexbio.org/create-an-ndex-account/) account, and export your network to it. Go to `File->Export->Network to NDEx`. Click on the anonymous account in the upper right, then the Add Account button. Enter your NDEx username and password leaving the NDEx server field blank. 
 
 ## 2. Introduction to networkx and NDExBio
+
+1. Use `pip` to install NDExBio
+2. Open up a `Jupyter Notebook`
+3. Use the following command to find the documentation for NDExBio.
+```
+help(NDEx)
+```
+2. Load the graph found at the following UUID: 6a19-586e-11e7-8f50-0ac135e8bacf
+3. Convert the graph to a NetworkX object
+4. Instead of studying the entire network directly, we will use a seed and create a subnetwork from this seed node by collecting all of its first degree neighbors. We will continue to expand this subnetwork by collecting the neighbors of neighbors (and so on) until we reach a minimum of 300 nodes. Write the necessary function that takes a graph, node, and the minimum number of nodes as input and returns the expanded subgraph. Use BRCA2 as the seed node. *Tip: you can get all direct neighbors using the neighbors() method.*
+5. Write a function that loops through the edges of of your subnetwork to create an adjacency matrix.
+
+
